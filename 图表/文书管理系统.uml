@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/陈衍鑫/Desktop/文书管理系统/文书管理系统后端/src/main/java</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1034.0">com.contract_management.contract.service.impl.CategoryServiceImpl</node>
+    <node x="249.0" y="838.0">com.contract_management.contract.controller.ArticleController</node>
+    <node x="1789.0" y="196.0">com.contract_management.contract.service.impl.UserServiceimpl</node>
+    <node x="0.0" y="1487.0">com.contract_management.contract.controller.LogController</node>
+    <node x="1789.0" y="0.0">com.contract_management.contract.service.UserService</node>
+    <node x="0.0" y="0.0">com.contract_management.contract.entity.Article</node>
+    <node x="1632.0" y="1656.0">com.contract_management.contract.controller.FileUploadController</node>
+    <node x="296.0" y="1801.0">com.contract_management.contract.controller.BusinessController</node>
+    <node x="0.0" y="1249.0">com.contract_management.contract.controller.UserController</node>
+    <node x="693.0" y="1353.0">com.contract_management.contract.service.impl.BusinessServiceImpl</node>
+    <node x="0.0" y="1801.0">com.contract_management.contract.exception.GlobalExceptionHandler</node>
+    <node x="258.0" y="380.0">com.contract_management.contract.service.impl.ArticleServiceImpl</node>
+    <node x="1544.0" y="0.0">com.contract_management.contract.entity.Result</node>
+    <node x="784.0" y="1801.0">com.contract_management.contract.mapper.BusinessMapper</node>
+    <node x="258.0" y="0.0">com.contract_management.contract.service.ArticleService</node>
+    <node x="370.0" y="1249.0">com.contract_management.contract.utils.Md5Util</node>
+    <node x="1286.0" y="475.0">com.contract_management.contract.entity.Category.Update</node>
+    <node x="1408.0" y="475.0">com.contract_management.contract.entity.Category.Add</node>
+    <node x="559.0" y="1801.0">com.contract_management.contract.controller.ContractController</node>
+    <node x="819.0" y="838.0">com.contract_management.contract.entity.Business</node>
+    <node x="1216.0" y="1249.0">com.contract_management.contract.mapper.UserMapper</node>
+    <node x="705.5" y="1249.0">com.contract_management.contract.service.BusinessService</node>
+    <node x="383.0" y="1487.0">com.contract_management.contract.utils.ThreadLocalUtil</node>
+    <node x="588.0" y="1487.0">com.contract_management.contract.interceptors.LoginInterceptor</node>
+    <node x="986.0" y="1656.0">com.contract_management.ContractManagementApplication</node>
+    <node x="1172.0" y="1487.0">com.contract_management.contract.utils.JwtUtil</node>
+    <node x="253.0" y="1656.0">com.contract_management.contract.validation.StateValidation</node>
+    <node x="1316.0" y="1656.0">com.contract_management.contract.utils.AliOssUtil</node>
+    <node x="1511.0" y="1249.0">com.contract_management.contract.mapper.CategoryMapper</node>
+    <node x="927.0" y="1249.0">com.contract_management.contract.controller.CategoryController</node>
+    <node x="1478.0" y="838.0">com.contract_management.contract.service.LogService</node>
+    <node x="1851.0" y="838.0">com.contract_management.contract.entity.PageBean</node>
+    <node x="1506.0" y="1487.0">com.contract_management.contract.mapper.LogMapper</node>
+    <node x="0.0" y="1656.0">com.contract_management.contract.anno.State</node>
+    <node x="1032.0" y="0.0">com.contract_management.contract.entity.Log</node>
+    <node x="0.0" y="838.0">com.contract_management.contract.service.CategoryService</node>
+    <node x="1064.0" y="838.0">com.contract_management.contract.mapper.ArticleMapper</node>
+    <node x="646.0" y="1656.0">com.contract_management.contract.config.WebConfig</node>
+    <node x="774.0" y="0.0">com.contract_management.contract.entity.User</node>
+    <node x="1286.0" y="0.0">com.contract_management.contract.entity.Category</node>
+    <node x="1478.0" y="988.0">com.contract_management.contract.service.impl.LogServiceImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.contract_management.contract.entity.Category.Add" target="com.contract_management.contract.entity.Category" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="1448.0" y="450.0" />
+      <point x="1392.5" y="450.0" />
+      <point x="0.0" y="212.5" />
+    </edge>
+    <edge source="com.contract_management.contract.service.impl.ArticleServiceImpl" target="com.contract_management.contract.service.ArticleService" relationship="REALIZATION">
+      <point x="0.0" y="-177.0" />
+      <point x="0.0" y="165.0" />
+    </edge>
+    <edge source="com.contract_management.contract.service.impl.CategoryServiceImpl" target="com.contract_management.contract.service.CategoryService" relationship="REALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.contract_management.contract.service.impl.BusinessServiceImpl" target="com.contract_management.contract.service.BusinessService" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.contract_management.contract.entity.Category.Update" target="com.contract_management.contract.entity.Category" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="1337.0" y="450.0" />
+      <point x="1392.5" y="450.0" />
+      <point x="0.0" y="212.5" />
+    </edge>
+    <edge source="com.contract_management.contract.service.impl.LogServiceImpl" target="com.contract_management.contract.service.LogService" relationship="REALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.contract_management.contract.service.impl.UserServiceimpl" target="com.contract_management.contract.service.UserService" relationship="REALIZATION">
+      <point x="0.0" y="-85.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.34807793575566087" showDependencies="false" x="1025.5" y="939.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

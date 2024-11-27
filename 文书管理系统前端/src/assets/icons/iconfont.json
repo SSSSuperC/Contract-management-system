@@ -1,0 +1,37 @@
+{
+  "id": "4508547",
+  "name": "contract",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5835475",
+      "name": "书架",
+      "font_class": "shujia",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8071474",
+      "name": "阅读历史",
+      "font_class": "yuedulishi",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "14681091",
+      "name": "检索记录",
+      "font_class": "jiansuojilu",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "18406367",
+      "name": "笔记，记录",
+      "font_class": "bijijilu",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    }
+  ]
+}

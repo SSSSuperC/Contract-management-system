@@ -1,0 +1,40 @@
+
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4508547 */
+  src: url('iconfont.woff2?t=1713171674159') format('woff2'),
+       url('iconfont.woff?t=1713171674159') format('woff'),
+       url('iconfont.ttf?t=1713171674159') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*[class^="el-icon-contract"], [class*=" el-icon-contract"]  !*这里有空格*! {*/
+/*    font-family: "iconfont" !important;*/
+/*    font-size: 16px;*/
+/*    font-style: normal;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*}      */
+
+.icon-shujia:before {
+  content: "\e610";
+}
+
+.icon-yuedulishi:before {
+  content: "\e6e3";
+}
+
+.icon-jiansuojilu:before {
+  content: "\e66c";
+}
+
+.icon-bijijilu:before {
+  content: "\e6f3";
+}
+
